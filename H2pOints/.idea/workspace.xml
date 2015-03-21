@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1043eaf-791d-4eca-84f6-58161939f28a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_153503_create_events_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_153535_create_products_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_153554_create_advices_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_162420_create_achievements_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_163727_create_levels_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2015_03_21_152102_create_users_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2015_03_21_152102_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="H2pOints.iws" />
@@ -32,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2015_03_21_153554_create_advices_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_03_21_153554_create_advices_table.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6982143" vertical-offset="69" max-vertical-offset="989">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.34392524" vertical-offset="0" max-vertical-offset="535">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -63,6 +58,7 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2015_03_21_152102_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_03_21_162420_create_achievements_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2015_03_21_163727_create_levels_table.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,7 +244,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426952022338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Database tables">
+      <created>1426956138673</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1426956138673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -295,7 +297,8 @@
     </option>
     <MESSAGE value="First commit" />
     <MESSAGE value="Users table created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Users table created" />
+    <MESSAGE value="Database tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -388,7 +391,15 @@
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2015_03_21_153554_create_advices_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6982143" vertical-offset="69" max-vertical-offset="989">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <caret line="21" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34392524" vertical-offset="0" max-vertical-offset="535">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
