@@ -18,6 +18,38 @@ body{
 }
 
 .profile-img {
-    max-width: 200px;
-    max-height: 200px;
+    margin: 20px auto;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.white {
+    color: white;
+}
+
+.profile-table{
+    width: 100%;
+    margin: 20px auto;
+    border: 0px solid white !important;
+}
+    .profile-table > tbody > tr{
+        border-bottom: 1px solid white !important;
+    }
+        .profile-table > tbody > tr > td{
+             padding: 20px 10px;
+         }
+
+.guardar-profile-button {
+    border-radius: 5px;
+    border: 1px solid #03C8A8;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    min-width: 80%;
+    width: 100%;
+}
+
+.guardar-profile-button:hover{
+    opacity: 0.6;
+    color: white;
 }

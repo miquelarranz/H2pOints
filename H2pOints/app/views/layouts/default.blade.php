@@ -11,6 +11,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/stylesheetY.css" rel="stylesheet">
         <link href="css/stylesheetM.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,7 +22,7 @@
         <![endif]-->
   </head>
   <body class="container-background">
-        <img id="bcn-skyline"src="img/barcelona-skyline.svg">
+
         <div>
             @yield('content')
         </div>

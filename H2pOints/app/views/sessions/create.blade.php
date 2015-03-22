@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
+    <img id="bcn-skyline"src="img/barcelona-skyline.svg">
     <div class="login">
         <img src="img/Icon_white.svg" class="img-responsive" alt="Responsive image">
         <div class="col-xs-offset-1 col-xs-10 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4">
