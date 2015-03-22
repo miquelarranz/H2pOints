@@ -1,0 +1,71 @@
+.container-background {
+	width: 100%;
+	height: 100vh;
+	background: rgba(25,114,215,1);
+	background: -moz-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,114,215,1)), color-stop(100%, rgba(51,160,255,1)));
+	background: -webkit-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: linear-gradient(to right, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1972d7', endColorstr='#33a0ff', GradientType=1 );
+}
+
+#login-background {
+	background-image: url('img/barcelona-skyline.svg');
+}
+
+
+.login{
+	text-align: center;
+	padding-top: 85px;
+}
+.login a{
+	color:white;
+}
+
+.login img{
+	margin: 0 auto;
+}
+.login form{
+	margin-top: 20px;
+}
+.login div form input{
+	margin-bottom: 10px;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.login div form button{
+	border-radius: 5px;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 10px;
+	min-width: 80%;
+	width: 100%;
+}
+
+.login div form button:hover{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.register-button{
+	background: #FFCE57;
+}
+.register-button:hover{
+	background: rgba(255,206,87,0.8)!important;
+}
+
+.enter-button{
+	background: #03C8A8;
+}
+.enter-button:hover{
+	background: rgba(3,200,168,0.8)!important;
+}
+#bcn-skyline{
+	width:100%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+
+}

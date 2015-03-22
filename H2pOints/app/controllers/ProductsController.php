@@ -9,7 +9,7 @@ class ProductsController extends \BaseController {
 	 */
 	public function index()
 	{
-        View::make('products.index');
+        return View::make('products.index');
 	}
 
 	/**
@@ -20,7 +20,7 @@ class ProductsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-        View::make('products.show');
+        return View::make('products.show');
 	}
 
 }

@@ -10,7 +10,7 @@ class TicketsController extends \BaseController {
      */
 	public function index($id)
 	{
-        View::make('tickets.index');
+        return View::make('tickets.index');
 	}
 
 	/**
@@ -21,7 +21,7 @@ class TicketsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-        View::make('tickets.show');
+        return View::make('tickets.show');
 	}
 
 }

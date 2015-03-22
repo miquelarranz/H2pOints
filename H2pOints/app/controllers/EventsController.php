@@ -9,7 +9,7 @@ class EventsController extends \BaseController {
 	 */
 	public function index()
 	{
-		View::make('events.index');
+        return View::make('events.index');
 	}
 
 	/**
@@ -20,7 +20,7 @@ class EventsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-        View::make('events.show');
+        return View::make('events.show');
 	}
 
 }

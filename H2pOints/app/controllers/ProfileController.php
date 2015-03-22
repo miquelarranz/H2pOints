@@ -8,8 +8,8 @@ class ProfileController extends \BaseController {
 	 * @return Response
 	 */
 	public function show()
-	{
-        View::make('profile.show');
+    {
+        return View::make('profile.show');
 	}
 
 }
