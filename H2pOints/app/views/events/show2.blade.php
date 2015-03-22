@@ -9,13 +9,13 @@
             <div class="container-fluid" style="margin-top:20px; margin-bottom: 20px;">
                 <div class="row">
                     <div class="col-xs-5 user_menu_container">
-                        <img id="user_menu" src="img/user.png">
+                        <img id="user_menu" src="../img/user.png">
                     </div>
 
                     <div class="col-xs-7">
                         <br>
                         <p>Xavi Sánchez Mir</p>
-                        <span class="label label-h2O">100 H2pOints</span>
+                        <span class="label label-h2O">90 H2pOints</span>
                     </div>
                 </div>
             </div>
@@ -48,61 +48,61 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <div class="row navbar_h2O">
-                <div class="col-xs-4 aligned_left">
-                    <a onclick="change_glyph()" href="#menu-toggle" class="btn btn-default btn-h2O" id="menu-toggle"><span id="change_glyph" font-size="50px" class=""></span></a>
-                </div>
-                <div class="col-xs-4 centered">
-                    <img id="menu_logo" src="img/Logo.svg">
-                </div>
-                <div class="col-xs-4 aligned_left"></div>
-                    <div class="col-xs-4 aligned_right">
-                        <div class="drop_points">
-                        90
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="container-fluid marginTop">
-                    <div class="text-center col-sm-6 col-sm-offset-3">
-                        <h1 class="white text-center">Perfil</h1>
-                        <img class="profile-img img-rounded" src="img/user.png" alt="Profile image">
-                        <table class="white profile-table text-left">
-                            <tr>
-                                <td>Email</td>
-                                <td>example@example.com</td>
-                            </tr>
-                            <tr>
-                                <td>Nom complert</td>
-                                <td>Xavi Sánchez Mir</td>
-                            </tr>
-                            <tr>
-                                <td>DNI</td>
-                                <td>00000000X</td>
-                            </tr>
-                            <tr>
-                                <td>Contrasenya</td>
-                                <td>********</td>
-                            </tr>
-                            <tr>
-                                <td>Punts actuals</td>
-                                <td>90 H2pOints</td>
-                            </tr>
-                            <tr>
-                                <td>Punts totals</td>
-                                <td>1050 H2pOints</td>
-                            </tr>
-                        </table>
-                        <div class="col-xs-4 col-xs-offset-4" style="padding-right: 0; margin-bottom: 20px">
-                            <a class="guardar-profile-button btn">Guardar</a>
-                        </div>
-                    </div>
+        <div class="row navbar_h2O">
+            <div class="col-xs-4 aligned_left">
+                <a onclick="change_glyph()" href="#menu-toggle" class="btn btn-default btn-h2O" id="menu-toggle"><span id="change_glyph" font-size="50px" class=""></span></a>
+            </div>
+            <div class="col-xs-4 centered">
+                <img id="menu_logo" src="../img/Logo.svg">
+            </div>
+            <div class="col-xs-4 aligned_left"></div>
+            <div class="col-xs-4 aligned_right">
+                <div class="drop_points">
+                    90
                 </div>
             </div>
-        <!-- /#page-content-wrapper -->
+        </div>
 
+
+
+        <div class="container-fluid marginTop">
+            <div class="text-center col-sm-6 col-sm-offset-3">
+                <h1 class="white text-center">Visita guiada nocturna</h1>
+                <img class="profile-img img-rounded" src="../img/visita-nocturna.jpg" alt="Profile image">
+                <table class="white profile-table text-left">
+                    <tr>
+                        <td>Descripció</td>
+                        <td>Visita guiada nocturna al museu de les aigües.</td>
+                    </tr>
+                    <tr>
+                        <td>Lloc</td>
+                        <td>Museu de les aigües</td>
+                    </tr>
+                    <tr>
+                        <td>Data</td>
+                        <td>24 de Març de 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Hora</td>
+                        <td>22:00h</td>
+                    </tr>
+                    <tr>
+                        <td>Preu</td>
+                        <td>Gratuït</td>
+                    </tr>
+                    <tr>
+                        <td>Recompensa</td>
+                        <td>100 H2pOints</td>
+                    </tr>
+                </table>
+                <div class="col-xs-4 col-xs-offset-4" style="padding-right: 0; margin-bottom: 20px">
+                    <a href="" class="guardar-profile-button btn"><span class="glyphicon glyphicon-ok"> Assistiré</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- /#page-content-wrapper -->
+    </div>
     </div>
     <!-- /#wrapper -->
 
@@ -159,5 +159,4 @@
     </script>
 
 @endsection
-
 

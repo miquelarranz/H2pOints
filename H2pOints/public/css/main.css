@@ -1,0 +1,125 @@
+
+.container-background {
+	background: rgba(25,114,215,1);
+	background: -moz-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,114,215,1)), color-stop(100%, rgba(51,160,255,1)));
+	background: -webkit-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	background: linear-gradient(to right, rgba(25,114,215,1) 0%, rgba(51,160,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1972d7', endColorstr='#33a0ff', GradientType=1 );
+	width: 100%;
+	height: 100vh;
+}
+
+.home-nav {
+	border: none;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 0;
+}
+
+.logo-home {
+	background: url(../img/logo.png) center center no-repeat;
+	width: 100px;
+	background-size: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.actual-points {
+	background: url(../img/drop.png) right center no-repeat;
+	text-align: right;
+	padding: 15px;
+	font-size: 14px;
+	padding-right: 7px;
+	color: white;
+	background-size: 8%;
+}
+
+.border-left {
+	border-left: 1px solid white;
+}
+
+.event {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.event .col-xs-4 {
+	text-align: center;
+}
+
+.event .col-xs-8 {
+	padding-bottom: 15px;
+}
+
+.event .col-xs-4 img {
+	border-radius: 100%;
+	width: 100%;
+	max-width: 100px;
+}
+
+.event .col-xs-4 img.gray {
+	border: 5px solid lightgrey;
+}
+
+.event .col-xs-4 img.red {
+	border: 5px solid red;
+}
+
+.event .col-xs-4 img.yellow {
+	border: 5px solid yellow;
+}
+
+.event .type {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.event .titl, .event .hashtag {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.event .hashtag {
+	font-style: italic;
+}
+
+.event .description {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.event .go {
+    color: white;
+    text-decoration: none;
+	border: 1px solid;
+	display: inline;
+	padding: 7px;
+	margin-bottom: 10px;
+	background-color: transparent;
+    border-radius: 5px;
+}
+
+.event .go.gray {
+	border-color: lightgrey;
+}
+
+.event .go.red {
+	border-color: red;
+}
+
+.event .go.yellow {
+	border-color: yellow;
+}
+
+
+
+
+
+
+
+
+

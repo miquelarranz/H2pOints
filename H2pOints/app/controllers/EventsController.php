@@ -20,7 +20,19 @@ class EventsController extends \BaseController {
 	 */
 	public function show($id)
 	{
-        return View::make('events.show');
+        if ($id == 1)
+        {
+            return View::make('events.show');
+        }
+        else if ($id == 2)
+        {
+            return View::make('events.show2');
+        }
+        else if ($id == 3)
+        {
+            return View::make('events.show3');
+        }
+
 	}
 
 }
